@@ -1,16 +1,18 @@
 .modal {
   position: absolute;
-  top: 1%;
-  left: 0%;
+  top: 50%;
+  left: 50%;
   width: 320px;
+  transform: translate(-50%, -50%);
 
   background: $primary-white-color;
-  transform: translateY(0);
+  // transform: translateY(0);
   transition: transform 500ms ease-out;
   @media (min-width: 480px) {
-    width: 450px;
-    left: 3%;
-    top: 2%;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
