@@ -1,6 +1,5 @@
 /* ----------- Hero section ----------- */
 .hero {
-  max-width: 480px;
   padding-top: 118px;
   padding-bottom: 118px;
 
@@ -42,7 +41,7 @@
       url('../images/tablet/bg-main@2x.jpg');
   }
   @media screen and (min-width: 1200px) {
-    min-width: 1600px;
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(
