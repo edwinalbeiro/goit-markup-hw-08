@@ -936,11 +936,16 @@ summary {
 }
 @media (min-width: 480px) {
   .modal {
-    width: 100%;
+    width: 100svw;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 768px) {
+  .modal {
+    width: 450px;
   }
 }
 
